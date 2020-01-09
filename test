@@ -1,0 +1,7 @@
+var snack = "granola bar";
+function eat(){
+  console.log(snack);
+  var snack = "snickers";
+}
+eat();
+console.log(snack);
